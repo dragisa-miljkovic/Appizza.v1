@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Appizza</string>
+    <string name="dugme_poruci">Поручи</string>
+
+    <string name="polozaj_desno">Десна половина</string>
+    <string name="polozaj_levo">Лева половина</string>
+    <string name="polozaj_bez">Без</string>
+    <string name="polozaj_cela">Цела пица</string>
+
+    <string name="dodatak_sir">Сир</string>
+    <string name="dodatak_masline">Маслини</string>
+    <string name="dodatak_pavalaka">Павлака</string>
+    <string name="dodatak_kecap">Кечап</string>
+    <string name="dodatak_majonez">Мајонез</string>
+    <string name="dodatak_paprika">Паприка</string>
+</resources>
