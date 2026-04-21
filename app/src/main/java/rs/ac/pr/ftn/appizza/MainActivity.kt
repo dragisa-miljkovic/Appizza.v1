@@ -4,6 +4,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.Text
 import rs.ac.pr.ftn.appizza.model.Dodatak
 import rs.ac.pr.ftn.appizza.model.DodatakPolozaj
 import rs.ac.pr.ftn.appizza.ui.DodatakPrikaz
@@ -14,7 +16,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            PizzaScreen()
+            Column {
+                Text(text = "Hello Worlддддd!")
+                PizzaScreen()
+            }
 
         }
     }
